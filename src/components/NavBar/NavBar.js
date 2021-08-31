@@ -1,39 +1,47 @@
 import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import './NavBar.css';
-import { Button } from '../Button';
+import 'animate.css'
+
+
 
 
 class NavBar extends Component {
+    
+    constructor(props) {
+        
+        super(props)
+        
+        this.state = { 
+            
+            hover : true}  
 
-    state = { clicked : false }
-
-    handleClick = ()=>{
-        this.setState({
-            clicked: !this.state.clicked
-        })
     }
+
+
 
     render(){
         return(
             <nav className = "NavBarItems">
+            
+            <h1 className="navbar-logo"><span className='animate__animated animate__fadeIn'>JMRC</span></h1>
                 
-                <h1 className="navbar-logo">JMRC</h1>
                 
-                <div className = "menu-icon" onClick= {this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                
-                <ul className = {this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul className = 'nav-menu'>
+                    
                     {MenuItems.map((item, index)=>{
                         return(
                 
-                    <li key={index}>
+                    <li key={index} >
                             
-                            <a className={item.cName} href={item.url}>
-                            {item.icon}
-                            </a>
-                        
+                          
+                        <a className={item.cName} href={item.url} >
+         
+                            <span className='animate__animated animate__fadeIn'>
+                                {item.title}
+                            </span>
+                        </a>
+                
                     </li>   
                     )}
                 )}

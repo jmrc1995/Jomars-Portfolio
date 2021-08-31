@@ -1,14 +1,15 @@
+import { NavHashLink } from 'react-router-hash-link';
 
-import {AiOutlineHome} from 'react-icons/ai'
-import {SiAboutDotMe} from 'react-icons/si'
-import {AiOutlineFolderOpen} from 'react-icons/ai'
+
+
 
 export const MenuItems = [
     {
         title: 'Home',
         url: '#',
         cName: 'nav-links',
-        icon: <AiOutlineHome className='nav-icons'/>
+        
+       
 
 
     },
@@ -17,7 +18,7 @@ export const MenuItems = [
         title: 'Projects',
         url: '#',
         cName: 'nav-links',
-        icon: <AiOutlineFolderOpen className='nav-icons'/>
+       
 
     },
 
@@ -25,8 +26,7 @@ export const MenuItems = [
         title: 'About',
         url: '#',
         cName: 'nav-links',
-        icon: <SiAboutDotMe className='nav-icons'/>
-
+       
 
     }
 ]

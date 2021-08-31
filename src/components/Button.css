@@ -1,13 +1,16 @@
 :root{
-    --primary:gray;
+    --primary:black;
 }
 
 .btn{
+    color: gray;
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
     border: none;
     cursor: pointer;
+ 
+   
 }
 
 .btn:hover{
@@ -22,8 +25,8 @@
 }
 
 .btn--outline{
+    
     background-color: transparent;
-    color: #ffffff;
     padding: 8px 20px;
     border-radius: 4px;
     border:1px solid var(--primary);
@@ -34,7 +37,9 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 10px;
-    color: #ffffff;
+    color: black;
+    margin: 0.6rem 0 0.6rem 0;
+    width: 80px;
 }
 
 .btn--large{

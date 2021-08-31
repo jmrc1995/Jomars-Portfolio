@@ -1,0 +1,36 @@
+.main-projects-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+ 
+   
+
+}
+
+.heading-box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 2.0rem;
+}
+
+.project-icon{
+    font-size: x-large;
+   
+}
+
+.link-container {  
+    text-align: center;
+    padding: 3rem;
+}
+
+@media(max-width:711px){
+    .main-projects-container{
+        display: block;
+
+
+    }
+}
