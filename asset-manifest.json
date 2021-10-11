@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Jomars-Portfolio/static/css/main.a159b058.chunk.css",
-    "main.js": "/Jomars-Portfolio/static/js/main.d7204561.chunk.js",
-    "main.js.map": "/Jomars-Portfolio/static/js/main.d7204561.chunk.js.map",
-    "runtime-main.js": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js",
-    "runtime-main.js.map": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js.map",
-    "static/css/2.a1596f27.chunk.css": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css",
-    "static/js/2.3479a27e.chunk.js": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js",
-    "static/js/2.3479a27e.chunk.js.map": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js.map",
-    "index.html": "/Jomars-Portfolio/index.html",
-    "static/css/2.a1596f27.chunk.css.map": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.a159b058.chunk.css.map": "/Jomars-Portfolio/static/css/main.a159b058.chunk.css.map",
-    "static/js/2.3479a27e.chunk.js.LICENSE.txt": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js.LICENSE.txt",
-    "static/media/eye.db7f58a0.png": "/Jomars-Portfolio/static/media/eye.db7f58a0.png",
-    "static/media/gew-pic.71b873ce.png": "/Jomars-Portfolio/static/media/gew-pic.71b873ce.png",
-    "static/media/jmrc2020.0c9fdfb1.png": "/Jomars-Portfolio/static/media/jmrc2020.0c9fdfb1.png"
+    "main.css": "/Jomars-Portfolio/index.html/static/css/main.3fe906d5.chunk.css",
+    "main.js": "/Jomars-Portfolio/index.html/static/js/main.d7204561.chunk.js",
+    "main.js.map": "/Jomars-Portfolio/index.html/static/js/main.d7204561.chunk.js.map",
+    "runtime-main.js": "/Jomars-Portfolio/index.html/static/js/runtime-main.36eb47f5.js",
+    "runtime-main.js.map": "/Jomars-Portfolio/index.html/static/js/runtime-main.36eb47f5.js.map",
+    "static/css/2.a1596f27.chunk.css": "/Jomars-Portfolio/index.html/static/css/2.a1596f27.chunk.css",
+    "static/js/2.3479a27e.chunk.js": "/Jomars-Portfolio/index.html/static/js/2.3479a27e.chunk.js",
+    "static/js/2.3479a27e.chunk.js.map": "/Jomars-Portfolio/index.html/static/js/2.3479a27e.chunk.js.map",
+    "index.html": "/Jomars-Portfolio/index.html/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/Jomars-Portfolio/index.html/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.3fe906d5.chunk.css.map": "/Jomars-Portfolio/index.html/static/css/main.3fe906d5.chunk.css.map",
+    "static/js/2.3479a27e.chunk.js.LICENSE.txt": "/Jomars-Portfolio/index.html/static/js/2.3479a27e.chunk.js.LICENSE.txt",
+    "static/media/eye.db7f58a0.png": "/Jomars-Portfolio/index.html/static/media/eye.db7f58a0.png",
+    "static/media/gew-pic.71b873ce.png": "/Jomars-Portfolio/index.html/static/media/gew-pic.71b873ce.png",
+    "static/media/jmrc2020.0c9fdfb1.png": "/Jomars-Portfolio/index.html/static/media/jmrc2020.0c9fdfb1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d0c34d8.js",
+    "static/js/runtime-main.36eb47f5.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.3479a27e.chunk.js",
-    "static/css/main.a159b058.chunk.css",
+    "static/css/main.3fe906d5.chunk.css",
     "static/js/main.d7204561.chunk.js"
   ]
 }
