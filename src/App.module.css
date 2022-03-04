@@ -1,0 +1,53 @@
+:root {
+    --main-background--color: #2E282A;
+    --secondary-background--color: #FFFFFC;
+    --main-heading--font : 'Ubuntu', sans-serif;
+    --sub-heading--font : 'Open Sans', sans-serif;
+    --main-heading-weight: 400;
+}
+
+*, body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.AppStyles{
+    width: 100%;
+}
+
+.AppStyles main{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #2E282A;
+    border-radius: 10px;
+
+
+
+}
+
+.AppStyles main div{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    overflow-wrap: break-word;
+
+}
+
+
+
+
+
+
+
+/* position: relative;
+justify-content: center;
+width: 50%;
+color: white;
+border:solid red 2px;
+overflow: hidden; */

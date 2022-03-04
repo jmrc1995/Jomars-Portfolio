@@ -1,0 +1,42 @@
+.typing-effect-container{
+
+
+}
+
+.typing-box-parent{
+    font-family: var(--main-heading--font );
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    align-items: center;    
+    font-size: 0.8rem;
+}
+
+.typing-box-parent div {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.typing-box div {
+    margin-bottom: 5rem;
+    
+  
+}
+
+.avatar-box{
+   
+
+    margin: 0 auto 0 auto;
+    width: 100%;
+    
+}
+
+
+
+
+
+

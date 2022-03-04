@@ -1,0 +1,66 @@
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+}
+
+
+.NavBarItems{
+    display: flex;    
+    align-items: center;
+    background: transparent;
+    height: 60px;
+    padding: 0 10rem 0 10rem;
+    z-index: 4;
+
+}
+
+.navbar-logo{
+    font-family: var(--main-heading--font);
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  
+}
+
+.nav-menu {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    
+
+   
+
+}
+
+.nav-links{
+    display: flex;
+    font-family: var(--sub-heading--font);
+    font-size: 0.8rem;
+    justify-content: center;
+    color: white;
+    margin-left: 0.8rem;
+    text-decoration: none;
+    
+ 
+}
+
+
+.nav-links:hover{
+    opacity: 1;
+    transition: all 0.2s ease-out;
+}
+
+
+
+@media (max-width:830px){
+   .NavBarItems{
+    display: flex;
+    align-content: baseline;
+    padding: 0rem 2rem 0 2rem;
+    margin: 0 0 0 0;
+
+   }
+   
+
+   
+}

@@ -1,0 +1,38 @@
+.contact-form{
+
+   
+    width:233px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center; 
+    margin: 3rem 1.8rem 5rem 1.8rem !important;
+    font-size: 2.0rem;
+
+    
+}
+
+.contact-form h1 {
+    font-family: ;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1.0px white;
+    letter-spacing: -2px;
+}
+
+.form-submission-temp{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.form-submission-temp input{
+   border : none;
+   border-bottom: 1px solid black;
+   margin-top: 5rem ;
+    
+}

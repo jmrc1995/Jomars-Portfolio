@@ -1,6 +1,6 @@
 .jmrc-logo{
-    width:25px;
-    height: 15px;
+    max-width: 375px;
+    margin: 4rem 0;
     cursor: pointer;
 
 }

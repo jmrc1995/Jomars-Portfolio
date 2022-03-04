@@ -1,33 +1,14 @@
-import React, { Component } from 'react'
-import AvatarPic from '../AvatarPic';
-import '../Avatar/Avatar.css'
+import avatarStyle from "./Avatar.module.css";
+import avatarPic from "../../assets/JomarApple.png";
 
-export class Avatar extends Component {
-    render() {
-        return (
-            <>
+const Avatar = () => {
+  return (
+    <div className={avatarStyle.Avatar} >
 
-                <div className = 'main-container-avatar'>
-                    
-                    <div className="hiding-parent">
-                        
-                        <div className='transparent-container'>
-                         
-                            <h1> 2021 </h1>
-                        
-    
-                        </div>
-                     
-                        <AvatarPic />
-    
-                     
-                         </div>
+        <img src={avatarPic} />
 
-                    </div>
-                
-            </>
-        )
-    }
-}
+    </div>
+  );
+};
 
-export default Avatar
+export default Avatar;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Footer/Footer.css'
-import Eye from '../Footer/Eye'
+import Eye from '../../assets/whiteeye.png'
 
 export class Footer extends Component {
     render() {
@@ -9,9 +9,14 @@ export class Footer extends Component {
 
             <nav className = "footer-container">
             
-                <div className="eye-logo">
+                <div>
+
+
                 
                     <span className='animate__animated animate__fadeIn'>
+
+                        <img src={Eye} className='eye-logo'/>
+                        
                 
                          
                     </span>

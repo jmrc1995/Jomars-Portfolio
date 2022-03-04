@@ -1,0 +1,97 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-heading--font);
+    background-color:var( --secondary-background--color);
+    border-radius: 10px;
+
+  
+
+}
+
+.Projects h1 {
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-size: 3rem;
+
+  
+}
+
+.Projects div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    font-family: var(--main-heading--font);
+    margin: 5rem 1rem 1rem 1rem !important;
+
+}
+
+
+.Cards::before {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(100%) contrast(95%) brightness(130%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.Cards  {
+    display: flex;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 0 0 1.1rem 0 rgba(0, 0, 0, 0.4);
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    justify-items: start;
+    cursor: pointer;
+    outline: 0;
+	overflow: hidden;
+	display: inline-block;
+	user-select: none;
+	box-shadow: 0 0 0 0 rgba(#fff, 0.5);
+	transition: box-shadow 150ms ease-out;
+	
+}
+
+
+.Cards a span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Cards a span img{
+    width:50%;
+}
+
+
+
+/* .Projects div ul {
+    align-items: center;
+    list-style: none;
+    height:500px;
+    font-family: var(--sub-heading--font);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Projects  div ul li{
+    list-style: none;
+    font-family: var(--sub-heading--font);
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #2E282A;
+} */

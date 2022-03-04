@@ -1,0 +1,108 @@
+.NavBar {
+    position:  absolute;
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    background-color: #2E282A;
+    height: 80px;
+    z-index: 9;
+
+} 
+
+.NavBar nav ul {
+    position: absolute;
+    right: 10%;
+    bottom: 38%;
+    display: flex;
+    list-style: none;
+    z-index: 5;
+    
+}
+
+.NavBar nav ul li{
+    margin:0 0.4rem;
+    list-style: none;
+    
+}
+
+.NavBar nav ul li a {
+    font-family: var(--sub-heading--font );
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+
+}
+
+.NavBar p  {
+    font-family: var(--main-heading--font);
+    color:white;
+    z-index: 5;
+    position: absolute;
+    left: 10%;
+    font-size: 1.5rem;
+
+    
+
+}
+
+
+.NavBar .MobileNavigation {
+    display:none;
+}
+
+@media (max-width: 830px) {
+    .NavBar .Navigation {
+        display: none;
+    }
+
+    .NavBar .MobileNavigation {
+        display: flex;
+        align-items: center;
+        width: 50%;
+       
+    }
+
+  
+    .NavBar nav  ul  {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 100%;
+        height:100vh;
+        background-color:#2E282A;
+        justify-content: center; 
+        align-items: start; 
+       
+    } 
+    
+    .NavBar .MobileNavigation ul li a {
+        font-family: var(--main-heading--font);
+        text-transform: lowercase;
+        font-size: 3.0rem;
+   
+    }
+
+
+    .NavBar .MobileNavigation .Hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+
+    }
+    .NavBar .MobileNavigation .Close{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+        z-index: 6;
+
+    }
+
+    .NavBar .NavLinks li a:hover {
+
+        opacity:0.5;
+        color: #F15025;
+
+    }
+}

@@ -1,44 +1,31 @@
 import NavBar from "./components/NavBar/NavBar";
-import './App.css';
-import Section from './components/Section/Section';
-import Projects from './components/Projects/Projects'
-
-import ReactTypingEffectDemo   from './components/ReactTypingEffect'
-import Footer from "./components/Footer/Footer";
+import appStyle from "./App.module.css";
+import Section from "./components/Section/Section";
+import Projects from "./components/Projects/Projects";
+import Banner from "./components/Banner/Banner";
 import Avatar from "./components/Avatar/Avatar";
 
-function App(){
+const App = () => {
+  return (
+    <div className={appStyle.AppStyles}>
+      <NavBar />
 
-   
+      <main>
+        <div>
+          <Banner />
+          
 
-    return (
-       
-                <div className="App">
-                    
-                    <NavBar />
-                    <div className = 'typing-effect-container'>
-                    
-                    < ReactTypingEffectDemo />
+          <Avatar />
+        </div>
+      </main>
 
-                    </div>
+      <Section title="ABOUT" />
 
-                    <Avatar/>
+      <Projects title="PROJECTS" />
 
-                    <Section />
-
-   
-
-                    <div className ='app-project-container'>                        
-
-                        <Projects />  
-              
-                    </div>
-
-                    <Footer />
-                    
-                </div>
-                
-    );
-}
+      {/* <Footer /> */}
+    </div>
+  );
+};
 
 export default App;

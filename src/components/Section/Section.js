@@ -1,37 +1,24 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import sectionStyles from "../Section/Section.module.css";
+import { info } from "../Section/SecData";
 
-import '../Section/Section.css'
+const Section = (props) => {
+  return (
+    <div className={sectionStyles.SectionStyle} id='section' >
+      <div>
+        <h1>{props.title}</h1>
+        <ul >
+          {info.map((item, index) => {
+            return (
+              <div >
+                <li > {item} </li>
+              </div>
+            );  
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-
-export default class Section extends Component {
-    render() {
-        return (
-
-     
-
-
-            <div className='section-main-container'>
-                 <div className = 'section-box-container'> 
-                    
-                    <h2>About</h2>
-                    
-                    <p className='section-body-text'> 
-                    Hi, my name is Jomar Cardoza. 
-                    I am a passionate creator that enjoys audio engineering and production.
-                    With the enviorment and workflow presented to me by the world of audio, 
-                    the transition into programming felt seamless. Both, give me the freedom
-                    to create, learn, and produce what comes to mind.
-
-    
-
-                     </p>
-                    </div>
-
-
-                
-                </div>
-
-     
-        )
-    }
-}
+export default Section;
