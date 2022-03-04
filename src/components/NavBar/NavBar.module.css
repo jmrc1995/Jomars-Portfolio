@@ -79,7 +79,7 @@
     
     .NavBar .MobileNavigation ul li a {
         font-family: var(--main-heading--font);
-        text-transform: lowercase;
+        
         font-size: 3.0rem;
    
     }
@@ -102,7 +102,7 @@
     .NavBar .NavLinks li a:hover {
 
         opacity:0.5;
-        color: #F15025;
+        color: #b9caff;
 
     }
 }
