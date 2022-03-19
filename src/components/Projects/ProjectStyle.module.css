@@ -62,25 +62,45 @@
 	user-select: none;
 	box-shadow: 0 0 0 0 rgba(#fff, 0.5);
 	transition: box-shadow 150ms ease-out;
+    text-decoration: none;
 	
 }
 
-.Cards div {
+.Cards a {
     display: flex;
     justify-content: space-between;
     font-family: var( --sub-heading--font);
     font-size: 12px;
     color: #2E282A;
+   
+}
+.Cards a{
+    text-decoration: none;
 }
 
-.Cards div a span {
+.Cards a div span {
     color:var(--main-background--color) ;
 }
+
+.Cards a div  h2 {
+    margin-left:1rem;
+}
+
+
+
+
+
+
 
 @media (max-width: 950px) {
     .Projects div{
         display: flex;
         flex-direction: column;
+    }
+
+    .Cards a div  h2 {
+        margin:1rem 0 0 0 ;
+      
     }
 }
 

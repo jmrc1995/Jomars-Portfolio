@@ -5,6 +5,10 @@ import Projects from "./components/Projects/Projects";
 import Banner from "./components/Banner/Banner";
 import Avatar from "./components/Avatar/Avatar";
 
+
+
+
+
 const App = () => {
   return (
     <div className={appStyle.AppStyles}>
@@ -21,6 +25,9 @@ const App = () => {
 
       <Section title="ABOUT" />
 
+   
+
+  
       <Projects title="PROJECTS" />
 
       {/* <Footer /> */}
