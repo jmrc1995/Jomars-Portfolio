@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/Jomars-Portfolio/static/css/main.f4c64408.chunk.css",
-    "main.js": "/Jomars-Portfolio/static/js/main.b38b22a3.chunk.js",
-    "main.js.map": "/Jomars-Portfolio/static/js/main.b38b22a3.chunk.js.map",
+    "main.css": "/Jomars-Portfolio/static/css/main.d01b7521.chunk.css",
+    "main.js": "/Jomars-Portfolio/static/js/main.42d60b28.chunk.js",
+    "main.js.map": "/Jomars-Portfolio/static/js/main.42d60b28.chunk.js.map",
     "runtime-main.js": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js",
     "runtime-main.js.map": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js.map",
     "static/css/2.a1596f27.chunk.css": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css",
-    "static/js/2.3479a27e.chunk.js": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js",
-    "static/js/2.3479a27e.chunk.js.map": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js.map",
+    "static/js/2.37770251.chunk.js": "/Jomars-Portfolio/static/js/2.37770251.chunk.js",
+    "static/js/2.37770251.chunk.js.map": "/Jomars-Portfolio/static/js/2.37770251.chunk.js.map",
     "index.html": "/Jomars-Portfolio/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.f4c64408.chunk.css.map": "/Jomars-Portfolio/static/css/main.f4c64408.chunk.css.map",
-    "static/js/2.3479a27e.chunk.js.LICENSE.txt": "/Jomars-Portfolio/static/js/2.3479a27e.chunk.js.LICENSE.txt",
-    "static/media/eye.db7f58a0.png": "/Jomars-Portfolio/static/media/eye.db7f58a0.png",
-    "static/media/jmrc2020.0c9fdfb1.png": "/Jomars-Portfolio/static/media/jmrc2020.0c9fdfb1.png",
-    "static/media/skeletons.b2b8cf84.png": "/Jomars-Portfolio/static/media/skeletons.b2b8cf84.png",
-    "static/media/todo-app.568a39bb.png": "/Jomars-Portfolio/static/media/todo-app.568a39bb.png"
+    "static/css/main.d01b7521.chunk.css.map": "/Jomars-Portfolio/static/css/main.d01b7521.chunk.css.map",
+    "static/js/2.37770251.chunk.js.LICENSE.txt": "/Jomars-Portfolio/static/js/2.37770251.chunk.js.LICENSE.txt",
+    "static/media/JomarApple.45f6c77d.png": "/Jomars-Portfolio/static/media/JomarApple.45f6c77d.png",
+    "static/media/bike.4ba7c172.jpg": "/Jomars-Portfolio/static/media/bike.4ba7c172.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d0c34d8.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.3479a27e.chunk.js",
-    "static/css/main.f4c64408.chunk.css",
-    "static/js/main.b38b22a3.chunk.js"
+    "static/js/2.37770251.chunk.js",
+    "static/css/main.d01b7521.chunk.css",
+    "static/js/main.42d60b28.chunk.js"
   ]
 }
