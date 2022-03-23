@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Jomars-Portfolio/static/css/main.ad271182.chunk.css",
-    "main.js": "/Jomars-Portfolio/static/js/main.0921cda7.chunk.js",
-    "main.js.map": "/Jomars-Portfolio/static/js/main.0921cda7.chunk.js.map",
+    "main.css": "/Jomars-Portfolio/static/css/main.fe918f36.chunk.css",
+    "main.js": "/Jomars-Portfolio/static/js/main.acdf376d.chunk.js",
+    "main.js.map": "/Jomars-Portfolio/static/js/main.acdf376d.chunk.js.map",
     "runtime-main.js": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js",
     "runtime-main.js.map": "/Jomars-Portfolio/static/js/runtime-main.8d0c34d8.js.map",
     "static/css/2.a1596f27.chunk.css": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css",
-    "static/js/2.e7bff7d3.chunk.js": "/Jomars-Portfolio/static/js/2.e7bff7d3.chunk.js",
-    "static/js/2.e7bff7d3.chunk.js.map": "/Jomars-Portfolio/static/js/2.e7bff7d3.chunk.js.map",
+    "static/js/2.bb789485.chunk.js": "/Jomars-Portfolio/static/js/2.bb789485.chunk.js",
+    "static/js/2.bb789485.chunk.js.map": "/Jomars-Portfolio/static/js/2.bb789485.chunk.js.map",
     "index.html": "/Jomars-Portfolio/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/Jomars-Portfolio/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.ad271182.chunk.css.map": "/Jomars-Portfolio/static/css/main.ad271182.chunk.css.map",
-    "static/js/2.e7bff7d3.chunk.js.LICENSE.txt": "/Jomars-Portfolio/static/js/2.e7bff7d3.chunk.js.LICENSE.txt",
+    "static/css/main.fe918f36.chunk.css.map": "/Jomars-Portfolio/static/css/main.fe918f36.chunk.css.map",
+    "static/js/2.bb789485.chunk.js.LICENSE.txt": "/Jomars-Portfolio/static/js/2.bb789485.chunk.js.LICENSE.txt",
     "static/media/JomarApple.45f6c77d.png": "/Jomars-Portfolio/static/media/JomarApple.45f6c77d.png",
-    "static/media/bike.4ba7c172.jpg": "/Jomars-Portfolio/static/media/bike.4ba7c172.jpg",
-    "static/media/whiteeye.93609707.png": "/Jomars-Portfolio/static/media/whiteeye.93609707.png"
+    "static/media/bike.4ba7c172.jpg": "/Jomars-Portfolio/static/media/bike.4ba7c172.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d0c34d8.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.e7bff7d3.chunk.js",
-    "static/css/main.ad271182.chunk.css",
-    "static/js/main.0921cda7.chunk.js"
+    "static/js/2.bb789485.chunk.js",
+    "static/css/main.fe918f36.chunk.css",
+    "static/js/main.acdf376d.chunk.js"
   ]
 }
