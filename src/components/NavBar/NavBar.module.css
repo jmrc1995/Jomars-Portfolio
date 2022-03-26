@@ -99,7 +99,7 @@
 
     }
 
-    .NavBar .NavLinks li a:hover {
+    .NavBar .NavLinks Link:hover {
 
         opacity:0.5;
         color: #b9caff;

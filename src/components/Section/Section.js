@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+
 import sectionStyles from "../Section/Section.module.css";
-import { info } from "../Section/SecData";
+import { info } from "./SecData";
 
 const Section = (props) => {
   return (
     <div className={sectionStyles.SectionStyle} id='section' >
       <div>
         <h1>{props.title}</h1>
-        <ul >
+        <ul>
           {info.map((item, index) => {
             return (
               <div >

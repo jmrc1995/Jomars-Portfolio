@@ -21,6 +21,7 @@
     align-items: center;
     font-size: 3.5rem;
     flex-grow: 1;
+   
     overflow-wrap: break-word;
 
    
@@ -34,12 +35,12 @@
 .Banner .Letters{
     display: flex;
     z-index: 2;
-   
     /* justify-items: center;
     align-items: center; */
-    margin: 2rem 0 2rem 0;
-
-    color: white;
+    margin: 10rem 0 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: transparent;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: white;
  

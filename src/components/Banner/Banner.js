@@ -1,18 +1,23 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import bannerStyles from "../Banner/Banner.module.css";
-import Avatar from "../Avatar/Avatar";
+// import Avatar from "../Avatar/Avatar";
 
 const Banner = () => {
   return (
     <>
       <div className={bannerStyles.Banner}>
+        {/* <main>
+          <div>
+            <Avatar />
+          </div>
+        </main> */}
         {/* <div> */}
-        {/* <ReactTypingEffect
-          speed="200"
-          typingDelay="1500"
+        <ReactTypingEffect
+          speed="100"
+          typingDelay="1000"
           className={bannerStyles.Letters}
-          eraseDelay="2500"
+          eraseDelay="2000"
           text={["DEVELOPER.", "AUDIO ENGINEER.", "PRODUCER."]}
           cursorRenderer={(cursor) => <h1> </h1>}
           displayTextRenderer={(text, i) => {
@@ -32,7 +37,7 @@ const Banner = () => {
               </h1>
             );
           }}
-        /> */}
+        />
       </div>
       {/*       
     </div> */}

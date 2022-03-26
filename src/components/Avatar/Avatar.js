@@ -5,7 +5,7 @@ const Avatar = () => {
   return (
     <div className={avatarStyle.Avatar} >
 
-        <img src={avatarPic} />
+        <img src={avatarPic} alt='apple-avatar'/>
 
     </div>
   );

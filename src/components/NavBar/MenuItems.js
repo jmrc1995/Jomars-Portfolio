@@ -1,3 +1,5 @@
+
+
 const MenuItems = [
 	{
 		title: 'Home',
@@ -7,13 +9,18 @@ const MenuItems = [
 
 	{
 		title: 'Projects',
-		url: '/#projects',
+		url: '/projects',
 		cName: 'nav-links'
 	},
 
 	{
 		title: 'About',
-		url: '/#section',
+		url: '/section',
+		cName: 'nav-links'
+	},
+	{
+		title: 'Music',
+		url: '/audio',
 		cName: 'nav-links'
 	}
 ];
